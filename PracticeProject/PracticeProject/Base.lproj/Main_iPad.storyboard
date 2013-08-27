@@ -58,7 +58,7 @@
         <!--Navigation Controller - Item-->
         <scene sceneID="1zs-bR-EYS">
             <objects>
-                <navigationController definesPresentationContext="YES" id="SPw-9Z-BKX" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="SPw-9Z-BKX" customClass="ACNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="2K4-WE-aHe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xiT-fw-Ftd">
                         <autoresizingMask key="autoresizingMask"/>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="-99" y="827"/>
         </scene>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="FUK-ae-1DC">
             <objects>
-                <viewController id="jtN-UL-7Px" sceneMemberID="viewController">
+                <viewController id="jtN-UL-7Px" customClass="ACRootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UBa-z3-aiQ"/>
                         <viewControllerLayoutGuide type="bottom" id="iCx-85-fwg"/>
