@@ -11,8 +11,6 @@
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ehf-7j-E8k"/>
                         <viewControllerLayoutGuide type="bottom" id="dV8-dz-1bs"/>
-                        <viewControllerLayoutGuide type="top" id="Smr-Ul-tVZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="1Qz-80-e51"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -86,13 +84,23 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utm-77-CmU">
-                                <rect key="frame" x="310" y="151" width="148" height="30"/>
+                                <rect key="frame" x="274" y="151" width="221" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go to the scond View">
+                                <state key="normal" title="Go to the scond View Via Segue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="T1v-t5-DeK" kind="push" id="kRI-K8-CyJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncZ-hY-2Df">
+                                <rect key="frame" x="361" y="265" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lets Go">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="letsGoButtonClicked:" destination="jtN-UL-7Px" eventType="touchUpInside" id="MhA-M3-rqG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,6 +111,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENj-Le-EhB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039" y="827"/>
+        </scene>
+        <!--Gem View Controller-->
+        <scene sceneID="eFt-K7-9u0">
+            <objects>
+                <viewController id="dxQ-Rz-Bgs" customClass="ACGemViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0e3-IU-7lN"/>
+                        <viewControllerLayoutGuide type="bottom" id="aXW-iC-umI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NgO-MQ-4Tc">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gk6-OT-EEQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2150" y="-465"/>
         </scene>
         <!--First Nav View Controller-->
         <scene sceneID="fNd-sy-o46">
@@ -123,7 +149,6 @@
             </objects>
             <point key="canvasLocation" x="2129" y="827"/>
         </scene>
-
         <!--Second View Controller - Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -131,8 +156,6 @@
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QhP-Mt-8Ha"/>
                         <viewControllerLayoutGuide type="bottom" id="RSV-GJ-8MR"/>
-                        <viewControllerLayoutGuide type="top" id="w0i-KZ-3UW"/>
-                        <viewControllerLayoutGuide type="bottom" id="RRD-yX-FPg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>

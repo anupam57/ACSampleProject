@@ -1,19 +1,18 @@
 //
-//  ACRootViewController.m
+//  ACGemViewController.m
 //  PracticeProject
 //
 //  Created by Anupam on 27/08/13.
 //  Copyright (c) 2013 BantuLaLKiDukaan. All rights reserved.
 //
 
-#import "ACRootViewController.h"
 #import "ACGemViewController.h"
 
-@interface ACRootViewController ()
+@interface ACGemViewController ()
 
 @end
 
-@implementation ACRootViewController
+@implementation ACGemViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,15 +22,11 @@
     }
     return self;
 }
-- (IBAction)letsGoButtonClicked:(id)sender {
- ACGemViewController *gemVC = [[ACGemViewController alloc] initWithNibName:nil
-                                                                    bundle:nil];
-  [self.navigationController pushViewController:gemVC
-                                       animated:YES];
-}
 
-- (void)viewDidLoad {
-  [super viewDidLoad];
+- (void)viewDidLoad
+{
+  [self.view setBackgroundColor:[UIColor brownColor]];
+    [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 

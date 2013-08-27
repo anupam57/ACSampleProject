@@ -26,6 +26,8 @@
 		128CAB2E17CCDC71001DF019 /* ACNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB2B17CCDC71001DF019 /* ACNavigationController.m */; };
 		128CAB2F17CCDC71001DF019 /* ACRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB2D17CCDC71001DF019 /* ACRootViewController.m */; };
 		128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */; };
+		128CAB3917CCE48C001DF019 /* ACGemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3817CCE48C001DF019 /* ACGemViewController.m */; };
+		128CAB3A17CCE48C001DF019 /* ACGemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3817CCE48C001DF019 /* ACGemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		128CAB2D17CCDC71001DF019 /* ACRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRootViewController.m; sourceTree = "<group>"; };
 		128CAB3417CCDE1B001DF019 /* ACFirstNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFirstNavViewController.h; sourceTree = "<group>"; };
 		128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFirstNavViewController.m; sourceTree = "<group>"; };
+		128CAB3717CCE48C001DF019 /* ACGemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACGemViewController.h; sourceTree = "<group>"; };
+		128CAB3817CCE48C001DF019 /* ACGemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACGemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,8 @@
 				128CAB2D17CCDC71001DF019 /* ACRootViewController.m */,
 				128CAB3417CCDE1B001DF019 /* ACFirstNavViewController.h */,
 				128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */,
+				128CAB3717CCE48C001DF019 /* ACGemViewController.h */,
+				128CAB3817CCE48C001DF019 /* ACGemViewController.m */,
 			);
 			name = NavigationIVC;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				128CAB0017CCD54C001DF019 /* ACFirstViewController.m in Sources */,
 				128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */,
 				128CAAF717CCD54C001DF019 /* ACAppDelegate.m in Sources */,
+				128CAB3917CCE48C001DF019 /* ACGemViewController.m in Sources */,
 				128CAB0317CCD54C001DF019 /* ACSecondViewController.m in Sources */,
 				128CAB2F17CCDC71001DF019 /* ACRootViewController.m in Sources */,
 				128CAAF317CCD54C001DF019 /* main.m in Sources */,
@@ -296,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CAB3A17CCE48C001DF019 /* ACGemViewController.m in Sources */,
 				128CAB1817CCD54C001DF019 /* PracticeProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
