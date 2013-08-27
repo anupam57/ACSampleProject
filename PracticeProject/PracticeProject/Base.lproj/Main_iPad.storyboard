@@ -82,6 +82,18 @@
                     <view key="view" contentMode="scaleToFill" id="iKQ-bo-GZz">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utm-77-CmU">
+                                <rect key="frame" x="310" y="151" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to the scond View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="T1v-t5-DeK" kind="push" id="kRI-K8-CyJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="BGC-CL-4rc"/>
@@ -89,6 +101,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENj-Le-EhB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039" y="827"/>
+        </scene>
+        <!--First Nav View Controller-->
+        <scene sceneID="fNd-sy-o46">
+            <objects>
+                <viewController id="T1v-t5-DeK" customClass="ACFirstNavViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l76-U6-cHh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z95-pM-IRT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ReH-fO-Y85" customClass="AC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gdq-KD-EN2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLT-Xx-HtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="827"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="wg7-f3-ORb">

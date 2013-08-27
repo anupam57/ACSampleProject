@@ -1,18 +1,18 @@
 //
-//  ACFirstViewController.m
+//  ACFirstNavViewController.m
 //  PracticeProject
 //
 //  Created by Anupam on 27/08/13.
 //  Copyright (c) 2013 BantuLaLKiDukaan. All rights reserved.
 //
 
-#import "ACFirstViewController.h"
+#import "ACFirstNavViewController.h"
 
-@interface ACFirstViewController ()
+@interface ACFirstNavViewController ()
 
 @end
 
-@implementation ACFirstViewController
+@implementation ACFirstNavViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
