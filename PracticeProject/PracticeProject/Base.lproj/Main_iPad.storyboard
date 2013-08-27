@@ -9,8 +9,13 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ACFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
+<<<<<<< HEAD
                         <viewControllerLayoutGuide type="top" id="ehf-7j-E8k"/>
                         <viewControllerLayoutGuide type="bottom" id="dV8-dz-1bs"/>
+=======
+                        <viewControllerLayoutGuide type="top" id="Smr-Ul-tVZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Qz-80-e51"/>
+>>>>>>> AddingNavBar
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -53,15 +58,89 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3041" y="150"/>
+            <point key="canvasLocation" x="-99" y="-1550"/>
         </scene>
+<<<<<<< HEAD
+=======
+        <!--Navigation Controller - Item-->
+        <scene sceneID="1zs-bR-EYS">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="SPw-9Z-BKX" customClass="ACNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="2K4-WE-aHe"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xiT-fw-Ftd">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jtN-UL-7Px" kind="relationship" relationship="rootViewController" id="Rfh-wR-r5a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OWe-rY-wLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99" y="827"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="FUK-ae-1DC">
+            <objects>
+                <viewController id="jtN-UL-7Px" customClass="ACRootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UBa-z3-aiQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="iCx-85-fwg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iKQ-bo-GZz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utm-77-CmU">
+                                <rect key="frame" x="310" y="151" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to the scond View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="T1v-t5-DeK" kind="push" id="kRI-K8-CyJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BGC-CL-4rc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENj-Le-EhB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="827"/>
+        </scene>
+        <!--First Nav View Controller-->
+        <scene sceneID="fNd-sy-o46">
+            <objects>
+                <viewController id="T1v-t5-DeK" customClass="ACFirstNavViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l76-U6-cHh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z95-pM-IRT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ReH-fO-Y85" customClass="AC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gdq-KD-EN2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLT-Xx-HtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="827"/>
+        </scene>
+>>>>>>> AddingNavBar
         <!--Second View Controller - Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ACSecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
+<<<<<<< HEAD
                         <viewControllerLayoutGuide type="top" id="QhP-Mt-8Ha"/>
                         <viewControllerLayoutGuide type="bottom" id="RSV-GJ-8MR"/>
+=======
+                        <viewControllerLayoutGuide type="top" id="w0i-KZ-3UW"/>
+                        <viewControllerLayoutGuide type="bottom" id="RRD-yX-FPg"/>
+>>>>>>> AddingNavBar
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -107,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3042" y="1284"/>
+            <point key="canvasLocation" x="-114" y="-392"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -122,11 +201,12 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="SPw-9Z-BKX" kind="relationship" relationship="viewControllers" id="Xc2-Zl-9M0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2023" y="718"/>
+            <point key="canvasLocation" x="-1637" y="-1090"/>
         </scene>
     </scenes>
     <resources>

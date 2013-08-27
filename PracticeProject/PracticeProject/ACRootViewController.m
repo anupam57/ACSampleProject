@@ -1,18 +1,18 @@
 //
-//  ACFirstViewController.m
+//  ACRootViewController.m
 //  PracticeProject
 //
 //  Created by Anupam on 27/08/13.
 //  Copyright (c) 2013 BantuLaLKiDukaan. All rights reserved.
 //
 
-#import "ACFirstViewController.h"
+#import "ACRootViewController.h"
 
-@interface ACFirstViewController ()
+@interface ACRootViewController ()
 
 @end
 
-@implementation ACFirstViewController
+@implementation ACRootViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,9 +23,8 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+- (void)viewDidLoad {
+  [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 

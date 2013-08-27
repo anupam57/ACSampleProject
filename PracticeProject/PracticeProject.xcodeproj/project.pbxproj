@@ -23,6 +23,9 @@
 		128CAB0E17CCD54C001DF019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128CAAEA17CCD54C001DF019 /* UIKit.framework */; };
 		128CAB1617CCD54C001DF019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 128CAB1417CCD54C001DF019 /* InfoPlist.strings */; };
 		128CAB1817CCD54C001DF019 /* PracticeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB1717CCD54C001DF019 /* PracticeProjectTests.m */; };
+		128CAB2E17CCDC71001DF019 /* ACNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB2B17CCDC71001DF019 /* ACNavigationController.m */; };
+		128CAB2F17CCDC71001DF019 /* ACRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB2D17CCDC71001DF019 /* ACRootViewController.m */; };
+		128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,12 @@
 		128CAB1317CCD54C001DF019 /* PracticeProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeProjectTests-Info.plist"; sourceTree = "<group>"; };
 		128CAB1517CCD54C001DF019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		128CAB1717CCD54C001DF019 /* PracticeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeProjectTests.m; sourceTree = "<group>"; };
+		128CAB2A17CCDC71001DF019 /* ACNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNavigationController.h; sourceTree = "<group>"; };
+		128CAB2B17CCDC71001DF019 /* ACNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNavigationController.m; sourceTree = "<group>"; };
+		128CAB2C17CCDC71001DF019 /* ACRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRootViewController.h; sourceTree = "<group>"; };
+		128CAB2D17CCDC71001DF019 /* ACRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRootViewController.m; sourceTree = "<group>"; };
+		128CAB3417CCDE1B001DF019 /* ACFirstNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFirstNavViewController.h; sourceTree = "<group>"; };
+		128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFirstNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,7 @@
 		128CAAEC17CCD54C001DF019 /* PracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				128CAB3017CCDDC5001DF019 /* NavigationIVC */,
 				128CAAF517CCD54C001DF019 /* ACAppDelegate.h */,
 				128CAAF617CCD54C001DF019 /* ACAppDelegate.m */,
 				128CAAF817CCD54C001DF019 /* Main_iPhone.storyboard */,
@@ -158,6 +168,19 @@
 				128CAB1417CCD54C001DF019 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		128CAB3017CCDDC5001DF019 /* NavigationIVC */ = {
+			isa = PBXGroup;
+			children = (
+				128CAB2A17CCDC71001DF019 /* ACNavigationController.h */,
+				128CAB2B17CCDC71001DF019 /* ACNavigationController.m */,
+				128CAB2C17CCDC71001DF019 /* ACRootViewController.h */,
+				128CAB2D17CCDC71001DF019 /* ACRootViewController.m */,
+				128CAB3417CCDE1B001DF019 /* ACFirstNavViewController.h */,
+				128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */,
+			);
+			name = NavigationIVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CAB2E17CCDC71001DF019 /* ACNavigationController.m in Sources */,
 				128CAB0017CCD54C001DF019 /* ACFirstViewController.m in Sources */,
+				128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */,
 				128CAAF717CCD54C001DF019 /* ACAppDelegate.m in Sources */,
 				128CAB0317CCD54C001DF019 /* ACSecondViewController.m in Sources */,
+				128CAB2F17CCDC71001DF019 /* ACRootViewController.m in Sources */,
 				128CAAF317CCD54C001DF019 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +501,7 @@
 				128CAB1D17CCD54C001DF019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		128CAB1E17CCD54C001DF019 /* Build configuration list for PBXNativeTarget "PracticeProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +510,7 @@
 				128CAB2017CCD54C001DF019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
