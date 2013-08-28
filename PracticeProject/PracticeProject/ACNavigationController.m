@@ -8,7 +8,7 @@
 
 #import "ACNavigationController.h"
 
-@interface ACNavigationController ()
+@interface ACNavigationController ()<UIViewControllerAnimatedTransitioning,UINavigationControllerDelegate>
 
 @end
 
@@ -33,6 +33,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   animationControllerForOperation:(UINavigationControllerOperation)operation
+                                                fromViewController:(UIViewController *)fromVC
+                                                  toViewController:(UIViewController *)toVC {
+  return self;
+}
+
+
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext {
+  return 10.0;
+  
+}
+- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+  NSLog(@"Transition....%@",transitionContext);
 }
 
 @end
