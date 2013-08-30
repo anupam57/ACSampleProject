@@ -28,6 +28,10 @@
 		128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */; };
 		128CAB3917CCE48C001DF019 /* ACGemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3817CCE48C001DF019 /* ACGemViewController.m */; };
 		128CAB3A17CCE48C001DF019 /* ACGemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CAB3817CCE48C001DF019 /* ACGemViewController.m */; };
+		12A64C2F17D06D110062553D /* ACDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A64C2E17D06D110062553D /* ACDownloadViewController.m */; };
+		12A64C3017D06D110062553D /* ACDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A64C2E17D06D110062553D /* ACDownloadViewController.m */; };
+		12A64C3317D07C090062553D /* ACDownloadURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A64C3217D07C090062553D /* ACDownloadURLOperation.m */; };
+		12A64C3417D07C090062553D /* ACDownloadURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A64C3217D07C090062553D /* ACDownloadURLOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		128CAB3517CCDE1B001DF019 /* ACFirstNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFirstNavViewController.m; sourceTree = "<group>"; };
 		128CAB3717CCE48C001DF019 /* ACGemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACGemViewController.h; sourceTree = "<group>"; };
 		128CAB3817CCE48C001DF019 /* ACGemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACGemViewController.m; sourceTree = "<group>"; };
+		12A64C2D17D06D110062553D /* ACDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDownloadViewController.h; sourceTree = "<group>"; };
+		12A64C2E17D06D110062553D /* ACDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDownloadViewController.m; sourceTree = "<group>"; };
+		12A64C3117D07C090062553D /* ACDownloadURLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDownloadURLOperation.h; sourceTree = "<group>"; };
+		12A64C3217D07C090062553D /* ACDownloadURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDownloadURLOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,7 @@
 		128CAAEC17CCD54C001DF019 /* PracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				12A64C2C17D06CE60062553D /* Downloading */,
 				128CAB3017CCDDC5001DF019 /* NavigationIVC */,
 				128CAAF517CCD54C001DF019 /* ACAppDelegate.h */,
 				128CAAF617CCD54C001DF019 /* ACAppDelegate.m */,
@@ -187,6 +196,17 @@
 				128CAB3817CCE48C001DF019 /* ACGemViewController.m */,
 			);
 			name = NavigationIVC;
+			sourceTree = "<group>";
+		};
+		12A64C2C17D06CE60062553D /* Downloading */ = {
+			isa = PBXGroup;
+			children = (
+				12A64C2D17D06D110062553D /* ACDownloadViewController.h */,
+				12A64C2E17D06D110062553D /* ACDownloadViewController.m */,
+				12A64C3117D07C090062553D /* ACDownloadURLOperation.h */,
+				12A64C3217D07C090062553D /* ACDownloadURLOperation.m */,
+			);
+			path = Downloading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +313,10 @@
 				128CAB3617CCDE1B001DF019 /* ACFirstNavViewController.m in Sources */,
 				128CAAF717CCD54C001DF019 /* ACAppDelegate.m in Sources */,
 				128CAB3917CCE48C001DF019 /* ACGemViewController.m in Sources */,
+				12A64C3317D07C090062553D /* ACDownloadURLOperation.m in Sources */,
 				128CAB0317CCD54C001DF019 /* ACSecondViewController.m in Sources */,
 				128CAB2F17CCDC71001DF019 /* ACRootViewController.m in Sources */,
+				12A64C2F17D06D110062553D /* ACDownloadViewController.m in Sources */,
 				128CAAF317CCD54C001DF019 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +326,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				128CAB3A17CCE48C001DF019 /* ACGemViewController.m in Sources */,
+				12A64C3417D07C090062553D /* ACDownloadURLOperation.m in Sources */,
+				12A64C3017D06D110062553D /* ACDownloadViewController.m in Sources */,
 				128CAB1817CCD54C001DF019 /* PracticeProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
